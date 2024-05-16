@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="../assets/js/color-modes.js"></script>
+<meta charset="utf-8">
+<meta name="author" content="Sergio Alfonseca vallet">
+<title>CLIPERTRUCADO</title>
+<link rel="canonical"
+	href="https://getbootstrap.com/docs/5.3/examples/album/">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="cliper.css" rel="stylesheet">
+</head>
+
+<body class="carrito-body" onload="carrito()" onunload="">
+	<header data-bs-theme="dark">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"> <img src="../imgs/logo.png"
+					height="50px" alt="Clipertrucado">
+				</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center"
+					id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0">
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="catalogo.html">Catalogo</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="Colaboraciones.html">Colaboraciones</a>
+						</li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="carro.html">Carrito</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="pedidos.html">Pedidos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<section class="py-5 text-center container">
+			<div class="row py-lg-5">
+				<div class="col-lg-6 col-md-8 mx-auto">
+					<h1 class="fw-light">CLIPERTRUCADO</h1>
+					<br>
+					<p class="lead text-body-secondary">Enciende tu estilo,
+						enciende con personalidad</p>
+					<p class="lead text-body-secondary">¡Mecheros a tu medida!</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="album py-5 bg-body-tertiary">
+			<div class="container">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Zenith Flame.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Zenith Flame: Este mechero
+									personalizado presenta un diseño elegante en acero inoxidable,
+									con una llama ajustable que brilla con un tono azul intenso.
+									Ideal para aquellos que buscan un toque de sofisticación en su
+									accesorio diario.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(0)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">10€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Sparkle Blaze.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Sparkle Blaze: Con un acabado
+									brillante en tonos metálicos, este mechero personalizado
+									destaca por su estilo contemporáneo. Su llama naranja vibrante
+									ilumina cualquier ocasión con un toque de energía y vitalidad.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(1)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">13€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Vintage Glow.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Vintage Glow: Inspirado en la
+									época retro, este mechero personalizado presenta un diseño
+									nostálgico con un toque de modernidad. Su llama suave y cálida
+									evoca la calidez de los días pasados, mientras que su acabado
+									envejecido añade un encanto único.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(2)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">16€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Eco-Fire.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Eco-Fire: Fabricado con
+									materiales ecológicos y sostenibles, este mechero personalizado
+									es perfecto para los amantes del medio ambiente. Su llama
+									brillante y constante refleja el compromiso con la
+									conservación, mientras que su diseño minimalista emana un
+									estilo consciente.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(3)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">11€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Adventure Torch.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Adventure Torch: Diseñado para
+									los espíritus aventureros, este mechero personalizado es
+									resistente y duradero, ideal para actividades al aire libre. Su
+									llama potente y resistente al viento garantiza un encendido
+									confiable en cualquier situación, mientras que su diseño
+									ergonómico facilita su uso en condiciones difíciles.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(4)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">18€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Glamour Flare.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Glamour Flare: Este mechero
+									personalizado es una declaración de estilo con su acabado
+									brillante y detalles de cristal incrustado. Su llama brillante
+									y llamativa añade un toque de glamour a cualquier ocasión,
+									convirtiéndolo en el accesorio perfecto para aquellos que
+									buscan destacar en la multitud.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(5)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">14€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Bohemian Blaze.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Bohemian Blaze: Con un diseño
+									artesanal y detalles étnicos, este mechero personalizado es un
+									tributo a la creatividad y la individualidad. Su llama danzante
+									y misteriosa ilumina el camino hacia la libertad y la expresión
+									personal, mientras que su estética bohemia invita a la aventura
+									y la exploración.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(6)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">15€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Tech Spark.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Tech Spark: Este mechero
+									personalizado combina estilo y funcionalidad con su diseño
+									futurista y tecnológicamente avanzado. Equipado con una llama
+									ajustable y un encendedor electrónico, es perfecto para
+									aquellos que aprecian la innovación y la comodidad en un solo
+									dispositivo.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(7)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">9€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<svg class="bd-placeholder-img card-img-top" width="100%"
+								height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+								aria-label="Placeholder: Thumbnail"
+								preserveAspectRatio="xMidYMid slice" focusable="false">
+								<image href="../imgs/Mechero Clásico Elegance.jpg" width="100%"></image>
+							</svg>
+							<div class="card-body">
+								<p class="card-text">Mechero Clásico Elegance: Con un diseño
+									atemporal y acabado en cromo pulido, este mechero personalizado
+									es un símbolo de elegancia y refinamiento. Su llama suave y
+									constante evoca una sensación de tranquilidad y serenidad,
+									convirtiéndolo en el compañero perfecto para momentos de
+									contemplación y relajación.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"
+											onclick="anyadirCarrito(8)">Añadir al carrito</button>
+									</div>
+									<small class="text-body-secondary">112€</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="container">
+			<p class="float-end">
+				<a href="#">Back to top</a>
+			</p>
+			<p>
+				&copy; 2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
+				<a href="#">Terms</a>
+			</p>
+		</footer>
+	</main>
+
+	<script src="operativa.js"></script>
+	<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

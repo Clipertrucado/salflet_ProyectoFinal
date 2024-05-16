@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="../assets/js/color-modes.js"></script>
+<meta charset="utf-8">
+<meta name="author" content="Sergio Alfonseca vallet">
+<title>CLIPERTRUCADO</title>
+<link rel="canonical"
+	href="https://getbootstrap.com/docs/5.3/examples/album/">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="carroPedidos.css" rel="stylesheet">
+</head>
+
+<body class="carrito-body" onload="pedidos()">
+	<header data-bs-theme="dark">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"> <img src="../imgs/logo.png"
+					height="50px" alt="Clipertrucado">
+				</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center"
+					id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0">
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="catalogo.html">Catalogo</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="Colaboraciones.html">Colaboraciones</a>
+						</li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="carro.html">Carrito</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="pedidos.html">Pedidos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="pedidos-card">
+		<div class="row">
+			<div class="col-md-8 pedidos-cart">
+				<div class="title">
+					<div class="row">
+						<div class="col">
+							<h4>
+								<b>Pedidos Realizado</b>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div id="Pedidos"></div>
+				<div class="back-to-shop">
+					<a href="#">&leftarrow;</a> <span class="text-muted">Back to
+						shop</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="operativa.js"></script>
+	<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

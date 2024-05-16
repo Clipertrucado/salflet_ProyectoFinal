@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="../assets/js/color-modes.js"></script>
+<meta charset="utf-8">
+<meta name="author" content="Sergio Alfonseca vallet">
+<title>CLIPERTRUCADO</title>
+<link rel="canonical"
+	href="https://getbootstrap.com/docs/5.3/examples/album/">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="cliper.css" rel="stylesheet">
+</head>
+
+<body class="carrito-body" onload="carrito()" onunload="">
+	<header data-bs-theme="dark">
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"> <img src="../imgs/logo.png"
+					height="50px" alt="Clipertrucado">
+				</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center"
+					id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0">
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="catalogo.html">Catalogo</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="Colaboraciones.html">Colaboraciones</a>
+						</li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="carro.html">Carrito</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="pedidos.html">Pedidos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<div id="myCarousel" class="carousel slide mb-6"
+			data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#myCarousel"
+					data-bs-slide-to="0" class="active" aria-current="true"
+					aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#myCarousel"
+					data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#myCarousel"
+					data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<svg class="bd-placeholder-img" width="100%" height="100%"
+						xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+						preserveAspectRatio="xMidYMid slice" focusable="false">
+						<image href="../imgs/carro1.jpeg" width="100%"></image>
+					</svg>
+					<div class="container">
+						<div class="carousel-caption text-start"></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<svg class="bd-placeholder-img" width="100%" height="100%"
+						xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+						preserveAspectRatio="xMidYMid slice" focusable="false">
+						<image href="../imgs/carro2.jpeg" width="100%"></image>
+					</svg>
+					<div class="container">
+						<div class="carousel-caption"></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<svg class="bd-placeholder-img" width="100%" height="100%"
+						xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+						preserveAspectRatio="xMidYMid slice" focusable="false">
+						<image href="../imgs/carro3.jpeg" width="100%"></image>
+					</svg>
+					<div class="container">
+						<div class="carousel-caption text-end"></div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button"
+				data-bs-target="#myCarousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button"
+				data-bs-target="#myCarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+
+
+		<div class="container marketing">
+
+
+			<div class="row">
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140"
+						height="140" xmlns="http://www.w3.org/2000/svg" role="img"
+						aria-label="Placeholder" preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+						<image href="../imgs/logo.png" width="100%" height="100%"></image>
+					</svg>
+					<h2 class="fw-normal">¿Quines somos?</h2>
+					<p>Somos una empresa dedicada a la venta y personalizacion de
+						mecheros</p>
+					<p>
+						<a class="btn btn-secondary" href="#">Ver más &raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140"
+						height="140" xmlns="http://www.w3.org/2000/svg" role="img"
+						aria-label="Placeholder" preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+						<image href="../imgs/Wave_Riders.jpg" width="100%" height="100%"></image>
+					</svg>
+					<h2 class="fw-normal">Catalogo</h2>
+					<p>Podras ver el catalogo de productos que tenemos a la venta
+						en estos momentos</p>
+					<p>
+						<a class="btn btn-secondary" href="catalogo.html">Ver más
+							&raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140"
+						height="140" xmlns="http://www.w3.org/2000/svg" role="img"
+						aria-label="Placeholder" preserveAspectRatio="xMidYMid slice"
+						focusable="false">
+						<image href="../imgs/catalogo.png" width="100%" height="100%"></image>
+					</svg>
+					<h2 class="fw-normal">Colaboraciones</h2>
+					<p>Echa un vistazo a nuestros ultimos lanzamientos junto a
+						otras marcas</p>
+					<p>
+						<a class="btn btn-secondary" href="colaboraciones.html">Ver
+							más &raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+			</div>
+
+			<!-- /END THE FEATURETTES -->
+
+		</div>
+		<!-- /.container -->
+
+
+		<!-- FOOTER -->
+		<footer class="container">
+			<p class="float-end">
+				<a href="#">Back to top</a>
+			</p>
+			<p>
+				&copy; 2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
+				<a href="#">Terms</a>
+			</p>
+		</footer>
+	</main>
+	<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
